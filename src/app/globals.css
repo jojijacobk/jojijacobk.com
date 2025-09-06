@@ -36,15 +36,24 @@
 }
 
 /* Chrome/WebKit overscroll reveal approximation */
-html {
+/* html {
   background: rgba(130, 203, 234, 0.103);
-  overscroll-behavior: none;
 }
 body {
   background: transparent;
-  min-height: 100%;
-  overflow-y: scroll;
+} */
+/* Use your brand tint on the page itself */
+html {
+  background: #00539f5b; /* light blue with 10% opacity */
 }
+body {
+  background: transparent;
+} /* let html show through */
+/* IMPORTANT: do NOT block overscroll */
+html,
+body {
+  overscroll-behavior: auto;
+} /* remove/undo any 'none' you had */
 
 /* Accessibility: respect reduced motion */
 @media (prefers-reduced-motion: reduce) {
