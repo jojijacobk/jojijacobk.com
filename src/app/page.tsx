@@ -103,11 +103,6 @@ export default function Home() {
             <div className="relative overflow-hidden rounded-2xl bg-white/55 backdrop-blur-xl p-6 md:p-8 outline outline-1 outline-[#00539F1F] shadow-xl">
               <Heading>Vision</Heading>
               <div className="mt-1 h-px w-12 bg-accent/50" />
-              <p className="m-4 text-base md:text-lg leading-relaxed">
-                I am a technology leader with 17 years of experience spanning{" "}
-                <span className="font-medium">full-stack engineering, enterprise platforms, modern frontend systems, and AI-powered solutions</span> — evolving from engineer to leading high-performing
-                teams that deliver systems used by millions.
-              </p>
 
               <p className="m-4 text-base md:text-lg leading-relaxed">
                 Technology excites me. I see every wave of innovation — from the rise of cloud platforms to today’s breakthroughs in AI and large language models and the technologies of tomorrow — as
